@@ -1,0 +1,56 @@
+body{
+    font-family: 'Cairo';
+    height: 100vh;
+    /* background: linear-gradient(
+        to bottom,
+        #088178 50%,
+        #090c31 50%
+    ); */
+    background: linear-gradient(-135deg, #088178, #090c31);
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 30px auto;
+    vertical-align: center;
+    width: 370px;
+    height: 370px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 4px;
+    grid-gap: 2px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 16px 48px; 
+}
+.Title{
+    text-align:center;
+    color: #090c31;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 57px;
+}
+span{
+    font-weight: 600;
+}
+.item{
+    background-color: #15173c;;
+    transition:0.5s;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 4px;
+    font-size: 65px;
+}
+.item:hover{
+    background-color:#088178  ;
+    cursor: pointer;
+    box-shadow: 0 8px 25px #000d2e;
+
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
